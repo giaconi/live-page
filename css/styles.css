@@ -20922,11 +20922,6 @@ body {
   background-color: #00ac69;
 }
 
-.avatar:hover {
-  transform: rotate(360deg);
-  transition: all 0.3s ease-in-out 0s;
-}
-
 .btn {
   display: inline-flex;
   align-items: center;
