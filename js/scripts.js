@@ -67,6 +67,7 @@ var typewriter = new Typewriter(app, {
 });
 
 typewriter
+  .pauseFor(1500)
   .typeString("Hi there.")
   .pauseFor(900)
   .typeString(" Nice to meet you!")
@@ -74,10 +75,10 @@ typewriter
   .deleteAll()
   .typeString("I'm a ")
   .pauseFor(500)
-  .typeString("<em>life lover</em>")
+  .typeString("<em>experience seeker</em>")
   .pauseFor(2500)
-  .deleteChars(10)
-  .typeString("<strong>developer</strong>")
+  .deleteChars(17)
+  .typeString("<strong>lifelong learner</strong>")
   .pauseFor(2500)
   .deleteAll()
   .typeString("...and a <strong>geek</strong> 🤓. ")
