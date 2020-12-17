@@ -12,7 +12,7 @@
     <meta property='og:description' content='Full-stack developer. Moved forward by a ton of drive and curiosity. Contact me to find out how can I help you materialize your idea.'/>
     <meta property='og:url' content='https://ghiaconi.com/'/>
 
-    <title>Gheorghe Iaconi | Developer</title>
+    <title>Gheorghe Iaconi | Software Developer</title>
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/custom.css" rel="stylesheet" />
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
@@ -71,7 +71,7 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link text-dark" data-toggle="tooltip" data-placement="bottom"
-                                        title="Download Resume" href="assets/Gheorghe_Iaconi_Junior_Developer.pdf"
+                                        title="Download Resume" href="assets/Gheorghe_Iaconi_Software_Developer.pdf"
                                         download rel="noopener noreferrer" target="_blank">
                                         <i class="fas fa-download"></i>
                                     </a>
@@ -137,6 +137,13 @@
                         <div id="carousel" class="carousel slide" data-interval="false">
                             <div class="carousel-inner border border-light rounded">
                                 <div class="carousel-item active">
+                                    <img class="d-block w-100" src="assets/img/aadv.png" alt="Third slide">
+                                    <div class="carousel-caption d-md-block">
+                                        <a href="#!" class="text-light p-2 bg-dark rounded" data-toggle="modal"
+                                            data-target="#adv-info"><i class="fas fa-search"></i></a>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
                                     <img class="d-block w-100" src="assets/img/mkdn.png" alt="First slide">
                                     <div class="carousel-caption d-md-block">
                                         <a href="#!" class="text-dark p-2 bg-light rounded" data-toggle="modal"
@@ -144,7 +151,7 @@
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="assets/img/edge.png" alt="First slide">
+                                    <img class="d-block w-100" src="assets/img/edge.png" alt="Second slide">
                                     <div class="carousel-caption d-md-block">
                                         <a href="#!" class="text-light p-2 bg-dark rounded" data-toggle="modal"
                                             data-target="#edge-info"><i class="fas fa-search"></i></a>
@@ -160,6 +167,52 @@
                                 <span class="sr-only">Next</span>
                             </a>
                         </div>
+                        <div class="modal fade" id="adv-info" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title text-center" id="exampleModalLongTitle">AER DE VACANTA</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="text-justify">
+                                            A blog for a travel couple build on Rails and FaeCMS with the admin area and article management part. Work in progress.
+                                        </p>
+                                        <hr>
+                                        <h5 class="text-center">Technologies</h5>
+                                        <div class="container-fluid">
+                                            <div class="row text-center">
+                                                <div class="col-md-6">HTML</div>
+                                                <div class="col-md-6">CSS</div>
+                                                <div class="col-md-6">Bootstrap</div>
+                                            </div>
+                                            <div class="row text-center">
+                                                <div class="col-md-6">JavaScript</div>
+                                                <div class="col-md-6">Heroku</div>
+                                                <div class="col-md-6">Ruby on Rails</div>
+                                            </div>
+                                            <div class="row text-center">
+                                                <div class="col-md-6">PostgreSQL</div>
+                                                <div class="col-md-6">FaeCMS</div>
+                                                <div class="col-md-6">JQuery</div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                                <div class="modal-footer">
+                                                    <a href="https://github.com/giaconi/adv-travel-blog" target="_blank"
+                                                        class="btn-flat-2"><i class="fab fa-github"></i></a>
+                                                    <a href="https://adv-blog.herokuapp.com/"
+                                                        target="_blank" class="btn-flat-2"><i class="fas fa-eye"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <!-- Modal one -->
                         <div class="modal fade" id="mkdn-info" tabindex="-1" role="dialog"
                             aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -173,13 +226,11 @@
                                     </div>
                                     <div class="modal-body">
                                         <p class="text-justify">
-                                            A to-do list on steroids. Draw from a need to manage all the tasks in an
-                                            efficient manner, categorize and also have an overview of the amount of time
-                                            that each one takes.
+                                            A to-do list experiment with React.
                                             Done in the MVC fashion where a React front end consumes an
                                             Ruby API from a Postgres database.
-                                            Is a work in progress as I need to redesign my components to be able to
-                                            correctly pass the data across.
+                                            Work in progress as I need to redesign my components to be able to
+                                            correctly pass the data across its children.
                                         </p>
                                         <p class="small text-right">
                                             <em>*project hosted on Heroku, it may take a few seconds to boot-up</em>
