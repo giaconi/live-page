@@ -41,6 +41,10 @@
     }
   });
 
+  $(".hide").on("copy paste cut drag drop", function (e) {
+    e.preventDefault();
+  });
+
   // Collapse Navbar
   // Add styling fallback for when a transparent background .navbar-marketing is scrolled
   var navbarCollapse = function () {
