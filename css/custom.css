@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .btn-ghost {
   color: #212832;
   border: 1px solid #4a4a4a;
