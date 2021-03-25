@@ -133,3 +133,15 @@ html {
     transform: rotate(359deg);
   }
 }
+
+.social {
+  font-size: 25px !important;
+}
+
+.main-image {
+  border-radius: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  height: 4rem;
+  width: auto;
+}
