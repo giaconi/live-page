@@ -90,23 +90,23 @@ typewriter
   .start();
 
 //animation
-const mouse = document.querySelector(".cursor");
+// const mouse = document.querySelector(".cursor");
 
-function cursorAnimate(e) {
-  mouse.style.top = e.pageY + "px";
-  mouse.style.left = e.pageX + "px";
-}
-function cursorActive(e) {
-  const element = e.target;
-  if (
-    element.classList.contains("hover") ||
-    element.classList.contains("nav-item")
-  ) {
-    mouse.classList.add("active");
-  } else {
-    mouse.classList.remove("active");
-  }
-}
+// function cursorAnimate(e) {
+//   mouse.style.top = e.pageY + "px";
+//   mouse.style.left = e.pageX + "px";
+// }
+// function cursorActive(e) {
+//   const element = e.target;
+//   if (
+//     element.classList.contains("hover") ||
+//     element.classList.contains("nav-item")
+//   ) {
+//     mouse.classList.add("active");
+//   } else {
+//     mouse.classList.remove("active");
+//   }
+// }
 
-window.addEventListener("mousemove", cursorAnimate);
-window.addEventListener("mouseover", cursorActive);
+// window.addEventListener("mousemove", cursorAnimate);
+// window.addEventListener("mouseover", cursorActive);
