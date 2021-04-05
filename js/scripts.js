@@ -110,3 +110,12 @@ typewriter
 
 // window.addEventListener("mousemove", cursorAnimate);
 // window.addEventListener("mouseover", cursorActive);
+
+// arrow-top
+$(window).scroll(function () {
+  if ($(this).scrollTop() > $(window).height()) {
+    $(".top").addClass("is-active");
+  } else {
+    $(".top").removeClass("is-active");
+  }
+});

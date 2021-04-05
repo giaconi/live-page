@@ -161,3 +161,20 @@ html {
   padding-left: 0.6em;
   border-radius: 10rem;
 }
+
+.top {
+  position: fixed;
+  bottom: 55px;
+  right: -100px;
+  z-index: 5;
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+  line-height: 40px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.is-active {
+  right: 40px;
+}
