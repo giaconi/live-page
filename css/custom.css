@@ -135,14 +135,14 @@ html {
 }
 
 .social {
-  font-size: 25px !important;
+  font-size: 20px !important;
 }
 
 .main-image {
   border-radius: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  height: 4rem;
+  height: 3rem;
   width: auto;
 }
 
